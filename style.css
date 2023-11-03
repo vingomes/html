@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #D7D4FF;
+    display: flex;
+    height: auto;
+    padding: 40px 20px;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.menuContent {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+    gap: 30px;
+    width: 390px;
+}
+
+.titulo {}
+
+.subtitulo {
+    display: flex;
+}
+
+.img {
+    display: flex;
+
+}
+
+.button {
+    width: 155px;
+    height: 50px;
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    margin-left: 30px;
+}
+
+main {
+    height: 1214px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.containercard {
+    display: inline-block;
+    padding-left: 101px;
+    padding-top: 150px;
+}
+
+.cardcolor {
+    background-color: #FF6363;
+    width: 340px;
+    height: 222px;
+}
+
+.card2color {
+    background-color: #63ECFF;
+    width: 340px;
+    height: 222px;
+}
+
+.card3color {
+    background-color: #F363FF;
+    width: 340px;
+    height: 222px;
+}
+
+.containercardsecondline {
+    display: inline-block;
+    padding-left: 101px;
+    padding-top: 68px;
+}
+
+.card4color {
+    background-color: #63FF73;
+    width: 340px;
+    height: 222px;
+}
+
+.card5color {
+    background-color: #FFDD63;
+    width: 340px;
+    height: 222px;
+}
+
+.card6color {
+    background-color: #6663FF;
+    width: 340px;
+    height: 222px;
+}
+
+.Contentcard {
+    width: 340px;
+    height: 201px;
+    background-color: #FFFFFF;
+}
+
+h1 {
+    padding-left: 30px;
+    padding-top: 24px;
+}
+
+p {
+    padding-left: 30px;
+    padding-top: 26px;
+}
+
+footer {
+    background-color: #D7D4FF;
+    height: 750px;
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.contact {
+    margin-bottom: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 470px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+input::placeholder {
+    padding-left: 15px;
+    padding-top: 21px;
+    color: #6E7275BD;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 470px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 470px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.inputmessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 165px;
+    width: 470px;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.buttonmessage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.sendmessage {
+    background-color: #6C63FF;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 470px;
+}
